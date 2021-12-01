@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.money,.rectangular,
+.number {
+    padding-bottom: 80px;
+    text-align: center;
+}

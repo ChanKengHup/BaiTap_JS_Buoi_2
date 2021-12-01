@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Bài tập JS buổi 2</h1>
+     
+    <div class="money">
+        <h2>Quy đổi tiền tệ từ USD qua VNĐ</h2>
+        <p>Giá trị 1 USD = 23.000 VND</p>
+        <input placeholder="Enter your Money" id="money__input">
+        <button onclick="calculatorMoney()">Tính tiền</button>
+        <p id="money__show"></p>
+    </div>
+    <div class="rectangular">
+        <h2>Tính chu vi và diện tích hình chữ nhật</h2>
+        
+        <input placeholder="Enter length" id="length__input">
+        <input placeholder="Enter width" id="width__input">
+        <button onclick="calculatorRectangular()">Calculator</button>
+        <p id="rectangular__show"></p>
+
+    </div>
+    <div class="number">
+        <h2>Tính tổng của 2 kí số</h2>
+        <input placeholder="Enter number" id="number__input">
+        <button onclick="calculatorNumber()">Calculator</button>
+        <p id="number__show"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
